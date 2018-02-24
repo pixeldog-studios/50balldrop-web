@@ -444,7 +444,22 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #pricing {
+  background: #535bd4 url('../images/iphone-download.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  position: relative;
+}
+
+#pricing .overlay {
   background: #535bd4;
+  opacity: 0.9;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 #pricing .pricing-plan {
