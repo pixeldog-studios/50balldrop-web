@@ -46,7 +46,7 @@ h2 {
 }
 
 h3 {
-  color: #535bd4;
+  color: #c402a9;
   font-size: 22px;
   line-height: 32px;
   padding-bottom: 4px;
@@ -224,7 +224,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand span {
-  color: #E60C0CFF;
+  color: #c41d02;
 }
 
 .navbar-default .navbar-nav li a {
@@ -282,20 +282,20 @@ a:hover, a:active, a:focus {
     color: #ffffff;
     display: -webkit-box;
     display: -webkit-flex;
-     display: -ms-flexbox;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-     align-items: center;
+    align-items: center;
     height: 80vh;
     position: relative;
 }
 
 #home .overlay {
   background: #02A9C4FF; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #02A9C4FF , #E60C0CFF); /* Chrome 10-25, Safari 5.1-6 */ 
-  background: linear-gradient(to left, #02A9C4FF , #E60C0CFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to left, #02A9C4FF , #c41d02); /* Chrome 10-25, Safari 5.1-6 */ 
+  background: linear-gradient(to left, #02a9c4ff , #c41d02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.9;
   position: absolute;
   width: 100%;
@@ -325,9 +325,9 @@ a:hover, a:active, a:focus {
   background: #02A9C4FF;
 }
 
-#home .section-btn:hover {
+/* #home .section-btn:hover {
   background: transparent !important;
-}
+} */
 
 
 /*---------------------------------------
@@ -445,7 +445,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #pricing {
-  background: #A700FFFF url('../images/iphone-download.jpg') no-repeat;
+  background: #c402a9 url('../images/iphone-download.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
   color: #ffffff;
@@ -453,7 +453,7 @@ a:hover, a:active, a:focus {
 }
 
 #pricing .overlay {
-  background: #A700FFFF;
+  background: #c402a9;
   opacity: 0.9;
   position: absolute;
   width: 100%;
