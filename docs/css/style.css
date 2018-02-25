@@ -213,7 +213,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand {
-  color: #535bd4;
+  color: #02A9C4FF;
   font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
@@ -223,7 +223,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand span {
-  color: #1dc9e3;
+  color: #E60C0CFF;
 }
 
 .navbar-default .navbar-nav li a {
@@ -292,9 +292,9 @@ a:hover, a:active, a:focus {
 }
 
 #home .overlay {
-  background: #4776E6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */ 
-  background: linear-gradient(to left, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #02A9C4FF; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #02A9C4FF , #E60C0CFF); /* Chrome 10-25, Safari 5.1-6 */ 
+  background: linear-gradient(to left, #02A9C4FF , #E60C0CFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.9;
   position: absolute;
   width: 100%;
@@ -444,7 +444,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #pricing {
-  background: #535bd4 url('../images/iphone-download.jpg') no-repeat;
+  background: #A700FFFF url('../images/iphone-download.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
   color: #ffffff;
@@ -452,7 +452,7 @@ a:hover, a:active, a:focus {
 }
 
 #pricing .overlay {
-  background: #535bd4;
+  background: #A700FFFF;
   opacity: 0.9;
   position: absolute;
   width: 100%;
