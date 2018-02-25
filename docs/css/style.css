@@ -107,7 +107,8 @@ a {
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #3FF;
+  /*color: #3FF;*/
+  color: #02A9C4FF;
   outline: none;
 }
 
@@ -176,7 +177,7 @@ a:hover, a:active, a:focus {
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #1dc9e3;
+  background-color: #02A9C4FF;
   border-radius: 100%;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
           animation: sk-pulseScaleOut 1s infinite ease-in-out; }
@@ -239,7 +240,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #1dc9e3;
+    color: #02A9C4FF;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -251,7 +252,7 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #1dc9e3;
+    color: #02A9C4FF;
     background-color: transparent;
 }
 
@@ -275,7 +276,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background: #535bd4 url('../images/home-bg.jpg') no-repeat;
+    background: #02A9C4FF url('../images/home-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -321,7 +322,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .section-btn {
-  background: #1dc9e3;
+  background: #02A9C4FF;
 }
 
 #home .section-btn:hover {
@@ -334,7 +335,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #divider {
-  background-color: #1dc9e3;
+  background-color: #02A9C4FF;
 }
 
 #divider p {
@@ -382,7 +383,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .about-thumb:hover h4 {
-  color: #1dc9e3;
+  color: #02A9C4FF;
 }
 
 
@@ -474,11 +475,11 @@ a:hover, a:active, a:focus {
 
 #pricing .pricing-plan .pricing-month h2 {
   font-size: 52px;
-  color: #1dc9e3;
+  color: #02A9C4FF;
 }
 
 #pricing .pricing-plan .section-btn {
-  background: #1dc9e3;
+  background: #02A9C4FF;
   position: relative;
   top: 20px;
 }
@@ -502,7 +503,7 @@ a:hover, a:active, a:focus {
 }
 
 #newsletter .overlay {
-  background: #1dc9e3;
+  background: #02A9C4FF;
   opacity: 0.9;
   position: absolute;
   width: 100%;
@@ -534,7 +535,7 @@ a:hover, a:active, a:focus {
   background-color: #ffffff;
   border-radius: 100px;
   border: 3px solid #ffffff;
-  color: #1dc9e3;
+  color: #02A9C4FF;
   font-size: 17px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -654,7 +655,7 @@ footer p {
 }
 
 .modal-dialog form input[type="submit"] {
-  background: #1dc9e3;
+  background: #02A9C4FF;
   border: 3px solid transparent;
   border-radius: 100px;
   font-weight: 400;
@@ -666,7 +667,7 @@ footer p {
 
 .modal-dialog form input[type="submit"]:hover {
   background: transparent;
-  border-color: #1dc9e3;
+  border-color: #02A9C4FF;
   color: #ffffff;
 }
 
@@ -754,7 +755,7 @@ footer p {
 }
 
 .social-icon li a:hover {
-    background: #1dc9e3;
+    background: #02A9C4FF;
     color: #ffffff;
     top: -5px;
 }
@@ -783,7 +784,7 @@ footer p {
 }
 
 .go-top:hover {
-    background: #535bd4;
+    background: #02A9C4FF;
     color: #ffffff;
 }
 
