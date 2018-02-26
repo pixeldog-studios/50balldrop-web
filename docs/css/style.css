@@ -338,7 +338,7 @@ a:hover, a:active, a:focus {
    Divider section              
 -----------------------------------------*/
 
-#divider {
+/* #divider {
   background-color: #02A9C4FF;
 }
 
@@ -346,14 +346,14 @@ a:hover, a:active, a:focus {
   color: #666;
   font-size: 26px;
   line-height: 42px;
-}
+} */
 
 
 /*---------------------------------------
    About section              
 -----------------------------------------*/
 
-#about img {
+/* #about img {
   width: 100%;
 }
 
@@ -388,7 +388,7 @@ a:hover, a:active, a:focus {
 
 #about .about-thumb:hover h4 {
   color: #02A9C4FF;
-}
+} */
 
 
 /*---------------------------------------
@@ -475,19 +475,37 @@ a:hover, a:active, a:focus {
   margin-bottom: 32px;
 }
 
-#pricing .pricing-plan a {
+/* #pricing .pricing-plan a {
   color: #ffffff;
 }
 
 #pricing .pricing-plan a:hover {
   color: #ffffff;
-}
+} */
 
 #pricing .pricing-plan.ios {
   background: #ffffff /*url('../images/home-bg.jpg') no-repeat*/;
   background-size: cover;
   background-position: center center;
   color: #ffffff;
+  position: relative;
+}
+
+#pricing .pricing-plan span {
+  display: inline-block;
+}
+
+#pricing .pricing-plan .ios-img {
+  content:url('../images/ios-badge.png');
+  width: 50%;
+  background-position: center center;
+  position: relative;
+}
+
+#pricing .pricing-plan .android-img {
+  content:url('../images/android-badge.png');
+  width: 50%;
+  background-position: center center;
   position: relative;
 }
 
@@ -524,7 +542,7 @@ a:hover, a:active, a:focus {
     Newsletter section              
 -----------------------------------------*/
 
-#newsletter {
+/* #newsletter {
     background: #535bd4 url('../images/newsletter-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
@@ -589,7 +607,7 @@ a:hover, a:active, a:focus {
 
 #newsletter .form-control::-webkit-input-placeholder {
   color: #ffffff;
-}
+} */
 
 
 /*---------------------------------------
